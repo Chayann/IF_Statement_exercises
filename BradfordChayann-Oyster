@@ -1,0 +1,17 @@
+#Chayann Bradford
+#27/09/2016
+#Oyster Card
+#Copyright(c) Chayann Bradford 2016
+
+import sys
+
+age= int(input('How old are you?'))
+if age < 19:
+    print('You are of age to have an Oyster Card')
+
+town=(input('Where do you live?'))
+if town == 'london' or 'London':
+    print('You are allowed to have an Oyster Card')
+
+input("Press enter to close")
+sys.exit
